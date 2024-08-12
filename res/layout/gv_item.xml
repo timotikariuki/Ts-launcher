@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:focusable="false" android:clickable="false" android:layout_width="120.0px" android:layout_height="110.0px"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:id="@id/img_icon" android:layout_width="75.0px" android:layout_height="75.0px" android:layout_marginTop="13.0px" android:layout_centerHorizontal="true" />
+    <TextView android:textSize="20.0px" android:textColor="@android:color/white" android:ellipsize="end" android:gravity="center" android:id="@id/tv_appname" android:layout_width="120.0px" android:layout_height="35.0px" android:layout_marginLeft="0.0px" android:singleLine="true" android:layout_below="@id/img_icon" />
+</RelativeLayout>

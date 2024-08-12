@@ -1,0 +1,24 @@
+version: 2.9.3
+apkFileName: 8667TsLauncher2_keruobo_1280x720.apk
+isFrameworkApk: false
+usesFramework:
+  ids:
+  - 1
+  tag: null
+sdkInfo:
+  minSdkVersion: 23
+  targetSdkVersion: 28
+packageInfo:
+  forcedPackageId: 127
+  renameManifestPackage: null
+versionInfo:
+  versionCode: null
+  versionName: null
+resourcesAreCompressed: false
+sharedLibrary: false
+sparseResources: false
+unknownFiles:
+  com/android/launcher2/UCCmds32.cmf: 0
+doNotCompress:
+- resources.arsc
+- png

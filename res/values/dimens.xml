@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="app_icon_size">80.0px</dimen>
+    <dimen name="workspace_left_padding">0.0px</dimen>
+    <dimen name="workspace_right_padding">0.0px</dimen>
+    <dimen name="workspace_top_padding">0.0px</dimen>
+    <dimen name="workspace_bottom_padding">0.0px</dimen>
+    <dimen name="app_icon_padding_top">10.0px</dimen>
+    <dimen name="app_icon_padding_bottom">0.0px</dimen>
+    <dimen name="app_icon_padding_left">0.0px</dimen>
+    <dimen name="app_icon_padding_right">0.0px</dimen>
+    <dimen name="workspace_cell_width">256.0px</dimen>
+    <dimen name="workspace_cell_height">250.0px</dimen>
+    <dimen name="workspace_width_gap">0.0px</dimen>
+    <dimen name="workspace_height_gap">0.0px</dimen>
+    <dimen name="workspace_icon_text_size">23.0px</dimen>
+    <dimen name="hotseat_cell_width">118.0px</dimen>
+    <dimen name="hotseat_cell_height">180.0px</dimen>
+    <dimen name="hotseat_width_gap">65.0px</dimen>
+    <dimen name="hotseat_height_gap">0.0px</dimen>
+    <item type="dimen" name="hotseat_bottom">@dimen/workspace_bottom_padding</item>
+    <item type="dimen" name="hotseat_left_padding">@dimen/workspace_left_padding</item>
+    <item type="dimen" name="hotseat_right_padding">@dimen/workspace_right_padding</item>
+    <item type="dimen" name="btn_all_apps_width">@dimen/hotseat_cell_width</item>
+    <item type="dimen" name="btn_all_apps_height">@dimen/hotseat_cell_height</item>
+    <dimen name="btn_all_apps_left_padding">0.0px</dimen>
+    <dimen name="btn_all_apps_right_padding">0.0px</dimen>
+    <dimen name="apps_customize_icon_padding_top">20.0px</dimen>
+    <dimen name="apps_customize_icon_padding_bottom">0.0px</dimen>
+    <dimen name="apps_customize_icon_padding_left">20.0px</dimen>
+    <dimen name="apps_customize_icon_padding_right">20.0px</dimen>
+    <dimen name="apps_customize_cell_width">250.0px</dimen>
+    <dimen name="apps_customize_cell_height">240.0px</dimen>
+    <dimen name="apps_customize_widget_cell_width_gap">30.0px</dimen>
+    <dimen name="apps_customize_widget_cell_height_gap">0.0px</dimen>
+    <dimen name="clingPunchThroughGraphicCenterRadius">94.0px</dimen>
+    <dimen name="folderClingMarginTop">20.0px</dimen>
+    <dimen name="cling_text_block_offset_x">0.0px</dimen>
+    <dimen name="cling_text_block_offset_y">0.0px</dimen>
+    <dimen name="reveal_radius">48.0px</dimen>
+    <dimen name="qsb_bar_height_inset">68.0px</dimen>
+    <dimen name="qsb_bar_height">80.0px</dimen>
+    <dimen name="qsb_padding_left">0.0px</dimen>
+    <dimen name="qsb_padding_right">0.0px</dimen>
+    <dimen name="search_bar_height">80.0px</dimen>
+    <dimen name="workspace_max_gap">32.0px</dimen>
+    <dimen name="folder_cell_width">148.0px</dimen>
+    <dimen name="folder_cell_height">164.0px</dimen>
+    <dimen name="folder_icon_padding_top">4.0px</dimen>
+    <dimen name="workspace_divider_padding_left">6.0px</dimen>
+    <dimen name="workspace_divider_padding_right">6.0px</dimen>
+    <dimen name="workspace_divider_padding_top">0.0px</dimen>
+    <dimen name="workspace_divider_padding_bottom">0.0px</dimen>
+    <dimen name="workspace_overscroll_drawable_padding">0.0px</dimen>
+    <dimen name="workspace_spring_loaded_page_spacing">30.0px</dimen>
+    <dimen name="app_icon_drawable_padding">12.0px</dimen>
+    <dimen name="app_icon_drawable_padding_land">4.0px</dimen>
+    <dimen name="toolbar_button_vertical_padding">0.0px</dimen>
+    <dimen name="toolbar_button_horizontal_padding">24.0px</dimen>
+    <dimen name="toolbar_external_icon_width">72.0px</dimen>
+    <dimen name="toolbar_external_icon_height">72.0px</dimen>
+    <dimen name="apps_customize_tab_bar_height">104.0px</dimen>
+    <dimen name="apps_customize_tab_bar_margin_top">0.0px</dimen>
+    <dimen name="apps_customize_max_gap">36.0px</dimen>
+    <dimen name="button_bar_height">124.0px</dimen>
+    <dimen name="button_bar_height_top_padding">16.0px</dimen>
+    <dimen name="button_bar_height_bottom_padding">0.0px</dimen>
+    <dimen name="button_bar_width_left_padding">0.0px</dimen>
+    <dimen name="button_bar_width_right_padding">0.0px</dimen>
+    <dimen name="button_bar_height_plus_padding">140.0px</dimen>
+    <dimen name="drop_target_drag_padding">28.0px</dimen>
+    <dimen name="scroll_zone">40.0px</dimen>
+    <dimen name="dragViewOffsetX">0.0px</dimen>
+    <dimen name="dragViewOffsetY">0.0px</dimen>
+    <dimen name="dragViewScale">24.0px</dimen>
+    <dimen name="app_widget_preview_padding_left">32.0px</dimen>
+    <dimen name="app_widget_preview_padding_right">32.0px</dimen>
+    <dimen name="app_widget_preview_padding_top">64.0px</dimen>
+    <dimen name="app_widget_preview_label_margin_top">8.0px</dimen>
+    <dimen name="app_widget_preview_label_margin_left">4.0px</dimen>
+    <dimen name="app_widget_preview_label_margin_right">4.0px</dimen>
+    <dimen name="shortcut_preview_padding_left">0.0px</dimen>
+    <dimen name="shortcut_preview_padding_right">0.0px</dimen>
+    <dimen name="shortcut_preview_padding_top">0.0px</dimen>
+    <dimen name="folder_preview_size">130.0px</dimen>
+    <dimen name="folder_preview_padding">8.0px</dimen>
+    <dimen name="folder_name_padding">20.0px</dimen>
+    <dimen name="folder_width_gap">0.0px</dimen>
+    <dimen name="folder_height_gap">0.0px</dimen>
+    <dimen name="folder_padding">20.0px</dimen>
+    <dimen name="cell_layout_left_padding_port">0.0px</dimen>
+    <dimen name="cell_layout_left_padding_land">0.0px</dimen>
+    <dimen name="cell_layout_right_padding_port">0.0px</dimen>
+    <dimen name="cell_layout_right_padding_land">0.0px</dimen>
+    <dimen name="cell_layout_top_padding_port">12.0px</dimen>
+    <dimen name="cell_layout_top_padding_land">0.0px</dimen>
+    <dimen name="cell_layout_bottom_padding_port">0.0px</dimen>
+    <dimen name="cell_layout_bottom_padding_land">0.0px</dimen>
+    <dimen name="workspace_left_padding_port">0.0px</dimen>
+    <item type="dimen" name="workspace_left_padding_land">@dimen/qsb_bar_height</item>
+    <dimen name="workspace_right_padding_port">0.0px</dimen>
+    <dimen name="workspace_right_padding_land">0.0px</dimen>
+    <item type="dimen" name="workspace_top_padding_port">@dimen/qsb_bar_height_inset</item>
+    <dimen name="workspace_top_padding_land">0.0px</dimen>
+    <item type="dimen" name="workspace_bottom_padding_port">@dimen/button_bar_height</item>
+    <dimen name="workspace_bottom_padding_land">0.0px</dimen>
+    <dimen name="workspace_cell_width_land">106.0px</dimen>
+    <dimen name="workspace_cell_width_port">80.0px</dimen>
+    <dimen name="workspace_cell_height_land">74.0px</dimen>
+    <dimen name="workspace_cell_height_port">100.0px</dimen>
+    <dimen name="workspace_width_gap_land">0.0px</dimen>
+    <dimen name="workspace_width_gap_port">0.0px</dimen>
+    <dimen name="workspace_height_gap_land">0.0px</dimen>
+    <dimen name="workspace_height_gap_port">0.0px</dimen>
+    <dimen name="workspace_page_spacing">-1.0px</dimen>
+    <item type="dimen" name="cell_layout_left_padding">@dimen/cell_layout_left_padding_land</item>
+    <item type="dimen" name="cell_layout_right_padding">@dimen/cell_layout_right_padding_land</item>
+    <item type="dimen" name="cell_layout_top_padding">@dimen/cell_layout_top_padding_land</item>
+    <item type="dimen" name="cell_layout_bottom_padding">@dimen/cell_layout_bottom_padding_land</item>
+    <dimen name="apps_customize_pageLayoutWidthGap">-1.0px</dimen>
+    <dimen name="apps_customize_pageLayoutHeightGap">-1.0px</dimen>
+    <dimen name="apps_customize_pageLayoutPaddingTop">10.0px</dimen>
+    <dimen name="apps_customize_pageLayoutPaddingBottom">10.0px</dimen>
+    <dimen name="apps_customize_pageLayoutPaddingLeft">10.0px</dimen>
+    <dimen name="apps_customize_pageLayoutPaddingRight">10.0px</dimen>
+</resources>

@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="workspace_divider_padding_left">0.0px</dimen>
+    <dimen name="workspace_divider_padding_right">0.0px</dimen>
+    <dimen name="workspace_divider_padding_top">24.0px</dimen>
+    <dimen name="workspace_divider_padding_bottom">24.0px</dimen>
+    <dimen name="toolbar_button_vertical_padding">16.0px</dimen>
+    <dimen name="toolbar_button_horizontal_padding">0.0px</dimen>
+    <dimen name="apps_customize_tab_bar_height">84.0px</dimen>
+    <dimen name="button_bar_height">136.0px</dimen>
+    <dimen name="button_bar_height_top_padding">16.0px</dimen>
+    <dimen name="button_bar_height_bottom_padding">0.0px</dimen>
+    <dimen name="button_bar_width_left_padding">0.0px</dimen>
+    <dimen name="button_bar_width_right_padding">0.0px</dimen>
+    <dimen name="button_bar_height_plus_padding">152.0px</dimen>
+    <dimen name="folder_preview_size">116.0px</dimen>
+    <dimen name="workspace_page_spacing">-1.0px</dimen>
+    <item type="dimen" name="cell_layout_left_padding">@dimen/cell_layout_left_padding_land</item>
+    <item type="dimen" name="cell_layout_right_padding">@dimen/cell_layout_right_padding_land</item>
+    <item type="dimen" name="cell_layout_top_padding">@dimen/cell_layout_top_padding_land</item>
+    <item type="dimen" name="cell_layout_bottom_padding">@dimen/cell_layout_bottom_padding_land</item>
+    <dimen name="apps_customize_pageLayoutWidthGap">-1.0px</dimen>
+    <dimen name="apps_customize_pageLayoutHeightGap">-1.0px</dimen>
+    <dimen name="apps_customize_pageLayoutPaddingTop">10.0px</dimen>
+    <dimen name="apps_customize_pageLayoutPaddingBottom">10.0px</dimen>
+    <dimen name="apps_customize_pageLayoutPaddingLeft">10.0px</dimen>
+    <dimen name="apps_customize_pageLayoutPaddingRight">10.0px</dimen>
+</resources>

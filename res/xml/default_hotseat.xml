@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<favorites
+  xmlns:launcher="http://schemas.android.com/apk/res/com.android.launcher">
+    <favorite launcher:className="com.ts.main.navi.NaviMainActivity" launcher:packageName="com.ts.MainUI" launcher:container="-101" launcher:screen="0" launcher:x="0" launcher:y="1" />
+    <favorite launcher:className="com.ts.main.radio.RadioMainActivity" launcher:packageName="com.ts.MainUI" launcher:container="-101" launcher:screen="1" launcher:x="0" launcher:y="1" />
+    <favorite launcher:className="com.ts.main.Media.USBMainActivity" launcher:packageName="com.ts.MainUI" launcher:container="-101" launcher:screen="2" launcher:x="0" launcher:y="2" />
+    <favorite launcher:className="com.ts.bt.BtConnectActivity" launcher:packageName="com.ts.MainUI" launcher:container="-101" launcher:screen="3" launcher:x="0" launcher:y="3" />
+    <favorite launcher:className="com.ts.main.Media.SDMainActivity" launcher:packageName="com.ts.MainUI" launcher:container="-101" launcher:screen="4" launcher:x="0" launcher:y="4" />
+</favorites>
