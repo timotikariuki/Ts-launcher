@@ -450,6 +450,7 @@
 .method private enterSetDate()V
     .locals 3
 
+    .prologue
     # Get the current image index
     sget v0, Lcom/android/launcher2/FirstView;->currentImageIndex:I
 
@@ -1171,13 +1172,13 @@
 
     ###################
     # Initialize the imageArray with your drawable resource IDs
-    sget v0, Lcom/android/launcher2/R$drawable;->main_car_bg:I
-    sget v1, Lcom/android/launcher2/R$drawable;->main_car_bg1:I
-    sget v2, Lcom/android/launcher2/R$drawable;->main_car_bg2:I
-    sget v3, Lcom/android/launcher2/R$drawable;->main_car_bg3:I
-    sget v4, Lcom/android/launcher2/R$drawable;->main_car_bg4:I
-    sget v5, Lcom/android/launcher2/R$drawable;->main_car_bg5:I
-    sget v6, Lcom/android/launcher2/R$drawable;->main_car_bg6:I
+    sget v0, Lcom/android/launcher/R$drawable;->main_car_bg:I
+    sget v1, Lcom/android/launcher/R$drawable;->main_car_bg1:I
+    sget v2, Lcom/android/launcher/R$drawable;->main_car_bg2:I
+    sget v3, Lcom/android/launcher/R$drawable;->main_car_bg3:I
+    sget v4, Lcom/android/launcher/R$drawable;->main_car_bg4:I
+    sget v5, Lcom/android/launcher/R$drawable;->main_car_bg5:I
+    sget v6, Lcom/android/launcher/R$drawable;->main_car_bg6:I
 
     filled-new-array/range {v0 .. v6}, [I
 
@@ -1337,6 +1338,19 @@
     iget-object v0, p0, Lcom/android/launcher2/FirstView;->media_next:Landroid/widget/Button;
 
     invoke-virtual {v0, p0}, Landroid/widget/Button;->setOnClickListener(Landroid/view/View$OnClickListener;)V
+
+    ##########
+    const v0, 0x7f070022
+
+    invoke-virtual {p0, v0}, Lcom/android/launcher2/FirstView;->findViewById(I)Landroid/view/View;
+
+    move-result-object v0
+
+    check-cast v0, Landroid/widget/ImageView;
+
+    iput-object v0, p0, Lcom/android/launcher2/FirstView;->car_bg:Landroid/widget/ImageView;
+
+    #####
 
     .line 512
     const v0, 0x7f070021
